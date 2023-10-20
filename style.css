@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.containerGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.containerGrid div {
+ 
+    width: 300px;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    color: rgb(70, 100, 70);
+    background-color: rgb(254, 255, 247);
+    border-radius: 10px;
+    align-self: center;
+  justify-self: center;
+  font-weight: bold;
+}
+
+
+
+img {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10%;
+
+
+}
+
+.containerGrid div:hover {
+    scale: 1.15;
+    }
+    
+
+body {
+    background-image: url("roam-in-color-zzMb7jacyBc-unsplash.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    font-family: 'Nanum Myeongjo', serif;
+    text-align: center;
+    
+}
+
+.containerMain {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(78, 76, 72);
+    ;
+}
+
+.modal img {
+    width : 400px;
+}
+
+.modal div {
+    font-size: 30px;
+}
+
+.modal {
+    background-color: rgb(254, 255, 247);
+    width: 600px;
+}
+
+.inputMain {
+    border-color: white;
+    border-style: solid;
+    font-size: 20px;
+
+}
+
+.submitMain {
+    display:none;
+}
+
+.request {
+    width: 350px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(78, 76, 72);
+    background-color:  rgb(254, 255, 247);
+}
